@@ -1,0 +1,261 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "language": "Langue",
+    "english": "Anglais",
+    "french": "Français"
+  },
+  "home": {
+    "title": "CarGameOnline - Jeu de Course Automobile Gratuit en Ligne",
+    "description": "Jouez à CarGameOnline, le jeu de course automobile gratuit en ligne. Courses palpitantes, drifts spectaculaires et compétition multijoueur. Jouez maintenant !",
+    "seo": {
+      "title": "CarGameOnline - Jeu de Course Automobile Gratuit en Ligne",
+      "description": "Jouez à CarGameOnline, le jeu de course automobile gratuit en ligne. Courses palpitantes, drifts spectaculaires et compétition multijoueur.",
+      "keywords": "jeu de course, jeu de voiture, course automobile, jeu gratuit, jeu en ligne, drift, multijoueur, jeu de voiture 3D"
+    }
+  },
+  "about": {
+    "title": "À propos de CarGameOnline",
+    "sections": {
+      "section1": {
+        "title": "🚗 Jouez à Notre Jeu de Course Automobile Gratuit en Ligne",
+        "content": "Démarrez vos moteurs ! Jouez dès aujourd'hui à notre jeu de course automobile gratuit en ligne. Il est rapide, amusant et facile à jouer. Transformez votre salon en circuit de course à grande vitesse d'un simple clic ou d'une tape."
+      },
+      "section2": {
+        "title": "⚡ Courez, Faites des Cascades et Amusez-vous",
+        "content": "Zoom sur des pistes excitantes avec les voitures les plus cool. Ce jeu ne se résume pas à la vitesse. Utilisez vos compétences pour diriger, déraper et sauter. Essayez des cascades impressionnantes et épatez vos amis avec des commandes simples."
+      },
+      "section3": {
+        "title": "👥 Jouez Avec des Amis",
+        "content": "Affrontez vos amis ou défiez leurs meilleurs temps. Battez leurs scores, pourchassez de nouveaux records et profitez d'une compétition amicale."
+      },
+      "section4": {
+        "title": "🎨 Personnalisez Votre Voiture de Rêve",
+        "content": "Construisez la voiture que vous avez toujours voulue. Changez les couleurs, améliorez les pièces et rendez votre véhicule unique. Choisissez l'apparence et la puissance qui correspondent à votre style."
+      },
+      "section5": {
+        "title": "🏆 Gagnez des Points et Débloquez Plus",
+        "content": "Gagner ne se résume pas à arriver premier. Chaque course vous rapporte des points. Au fur et à mesure que vos points augmentent, vous débloquez de nouvelles voitures et des niveaux passionnants. Chaque victoire vous rapproche du prochain grand prix."
+      },
+      "section6": {
+        "title": "🎮 Prêt, Partez, Go !",
+        "content": "Faites le plein d'amusement et ressentez le frisson de la course à grande vitesse chez vous. Attachez votre ceinture, prenez le volant et visez à devenir le champion ultime du jeu de voiture en ligne. La course est lancée, et vous êtes invité !"
+      },
+      "section7": {
+        "title": "❓ Que Sont les Jeux de Voiture en Ligne ?",
+        "content": "Les jeux de voiture en ligne sont des aventures de course basées sur le web passionnantes qui permettent aux enfants de mettre leur casque virtuel et de plonger dans l'action sans téléchargements. Choisissez votre véhicule de rêve - des voitures colorées et des monster trucks aux go-karts rapides - et courez sur des pistes créatives pleines de défis.",
+        "content2": "Ces jeux sont amusants et enseignent aussi les bases de la conduite comme la direction et le freinage. Avec des graphismes colorés, des commandes simples et des voitures à débloquer, les enfants profitent de courses sûres et amicales."
+      },
+      "section8": {
+        "title": "⭐ Pourquoi Choisir un Jeu de Voiture en Ligne ?",
+        "content": "Démarrez vos moteurs pour un jeu de voiture en ligne gratuit que les enfants peuvent jouer instantanément - pas de téléchargements ou d'installations ! Avec des pistes de style cartoon, des raccourcis secrets et des power-ups, chaque tour semble nouveau et excitant.",
+        "content2": "Conçu pour les enfants, ce jeu de course sur navigateur équilibre des commandes faciles à apprendre avec des défis palpitants."
+      },
+      "section9": {
+        "title": "🎯 Commandes",
+        "content": "→ Accélérer | ← Tourner | ↓ Ralentir | Espace = Sauter. Tout fonctionne directement dans votre navigateur - pas de téléchargements !"
+      },
+      "section10": {
+        "title": "💡 Conseils et Astuces",
+        "content": "Perfectionnez vos sauts, collectez des pièces et du carburant, explorez des raccourcis secrets, dirigez en douceur et pratiquez souvent !"
+      },
+      "section11": {
+        "title": "🚀 Fonctionnalités de Notre Jeu de Voiture en Ligne",
+        "content": "Pistes colorées, direction d'une seule tape, personnages amusants, obstacles, récompenses et une bande-son excitante - jouable instantanément !"
+      },
+      "section12": {
+        "title": "🎉 Amusement du Jeu de Voiture en Ligne",
+        "content": "Jouez dans votre navigateur - PC, tablette ou téléphone. Défiez des amis ou battez votre meilleur score n'importe quand, n'importe où !"
+      },
+      "section13": {
+        "title": "🔓 Jeu de Voiture en Ligne Non Bloqué",
+        "content": "Jouez à l'école ou à la bibliothèque, sans blocages ni téléchargements. Choisissez votre voiture préférée et commencez à courir librement !"
+      },
+      "section14": {
+        "title": "📱 Compatibilité des Plateformes",
+        "content": "Fonctionne sur PC, tablette ou smartphone. Ouvrez simplement votre navigateur, tapez Jouer et courez instantanément !"
+      },
+      "section15": {
+        "title": "❓ FAQ",
+        "questions": {
+          "q1": {
+            "question": "1. Dois-je installer quelque chose avant de jouer ?",
+            "answer": "Non ! Ce jeu de voiture fonctionne directement dans votre navigateur - pas de téléchargements, pas d'applications supplémentaires, pas d'attente. Ouvrez simplement la page et cliquez sur Jouer !"
+          },
+          "q2": {
+            "question": "2. Quels appareils puis-je utiliser pour courir ?",
+            "answer": "Vous pouvez zoomer sur n'importe quel appareil avec un navigateur web : smartphones, tablettes, ordinateurs portables ou PC de bureau. Le jeu s'ajuste automatiquement pour avoir l'air parfait partout."
+          },
+          "q3": {
+            "question": "3. Le jeu de voiture est-il vraiment gratuit ?",
+            "answer": "Oui - complètement gratuit. Il n'y a pas de frais d'inscription, pas de frais cachés, et pas d'achats intégrés requis. Toutes les voitures et tous les niveaux sont prêts pour vous."
+          },
+          "q4": {
+            "question": "4. Est-il sûr et adapté aux enfants ?",
+            "answer": "Absolument ! Des graphismes amicaux, des commandes faciles et des sons joyeux en font parfait pour les jeunes joueurs. Il n'y a pas de contenu effrayant ou violent - juste du pur amusement."
+          },
+          "q5": {
+            "question": "5. Comment commencer ma première course ?",
+            "answer": "Ouvrez simplement la page du jeu, choisissez votre voiture préférée, puis appuyez sur le bouton \"Jouer\". Des flèches à l'écran et des conseils simples vous guideront à chaque étape. Profitez de la course !"
+          }
+        }
+      }
+    }
+  },
+  "privacy": {
+    "title": "🔒 Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour :",
+    "sections": {
+      "definitions": {
+        "title": "📖 Interprétation et Définitions",
+        "interpretation": {
+          "title": "📝 Interprétation",
+          "content": "Les mots dont la lettre initiale est en majuscule ont des significations définies dans les conditions suivantes..."
+        },
+        "definitionsList": {
+          "title": "📌 Définitions",
+          "account": "👤 Compte désigne un compte unique...",
+          "affiliate": "🏢 Affilié désigne une entité qui contrôle...",
+          "company": "🏭 Société fait référence au jeu de voiture en ligne.",
+          "cookies": "🍪 Cookies sont de petits fichiers...",
+          "country": "🌍 Pays fait référence à : New York, États-Unis.",
+          "device": "💻 Appareil désigne tout appareil...",
+          "personalData": "🔐 Données Personnelles désigne toute information...",
+          "website": "🌐 Site Web fait référence au jeu de voiture en ligne...",
+          "serviceProvider": "🤝 Fournisseur de Services désigne toute personne physique ou morale...",
+          "usageData": "📊 Données d'Utilisation fait référence aux données collectées automatiquement..."
+        }
+      },
+      "collectingData": {
+        "title": "📂 Collecte et Utilisation de Vos Données Personnelles",
+        "typesOfData": {
+          "title": "📑 Types de Données Collectées",
+          "personalData": "👤 Données Personnelles : Lors de l'utilisation de Notre Service, Nous pouvons Vous demander...",
+          "usageData": "📊 Données d'Utilisation : Les Données d'Utilisation sont collectées automatiquement...",
+          "tracking": "🍪 Technologies de Suivi et Cookies : Nous utilisons des Cookies et des technologies de suivi similaires..."
+        }
+      },
+      "useOfData": {
+        "title": "⚙️ Utilisation de Vos Données Personnelles",
+        "purposes": [
+          "🖥️ Fournir et maintenir notre Service...",
+          "👥 Gérer Votre Compte...",
+          "📞 Vous contacter par email, téléphone, SMS...",
+          "📢 Vous fournir des nouvelles, des offres spéciales...",
+          "🤝 Pour les transferts d'entreprise..."
+        ]
+      },
+      "security": {
+        "title": "🔐 Sécurité de Vos Données Personnelles",
+        "content": "La sécurité de Vos Données Personnelles est importante, mais rappelez-vous qu'aucune méthode de transmission ou de stockage n'est sécurisée à 100%..."
+      },
+      "rights": {
+        "title": "⚖️ Vos Droits et Autres Clauses",
+        "rightsList": [
+          "🗑️ Supprimer Vos Données Personnelles : Vous avez le droit de supprimer...",
+          "🏢 Transactions Commerciales : Si la Société est impliquée dans une fusion...",
+          "👮 Application de la Loi : Dans certaines circonstances, la Société peut être tenue...",
+          "📜 Autres exigences légales : ✔️ Se conformer à une obligation légale, 🛡️ Protéger les droits...",
+          "👶 Confidentialité des Enfants : Notre Service ne s'adresse à personne de moins de 13 ans...",
+          "🔗 Liens vers d'Autres Sites Web : Notre Service peut contenir des liens...",
+          "✏️ Modifications de cette Politique de Confidentialité : Nous pouvons mettre à jour de temps en temps..."
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "📜 Termes et Conditions",
+    "lastUpdated": "Dernière mise à jour :",
+    "sections": {
+      "definitions": {
+        "title": "📖 Interprétation et Définitions",
+        "interpretation": {
+          "title": "📝 Interprétation",
+          "content": "Les mots dont la lettre initiale est en majuscule..."
+        },
+        "definitionsList": {
+          "title": "📌 Définitions",
+          "affiliate": "🏢 Affilié désigne une entité qui contrôle...",
+          "country": "🌍 Pays fait référence à : New York, États-Unis",
+          "company": "🏭 Société fait référence au jeu de voiture en ligne.",
+          "device": "💻 Appareil désigne tout appareil qui peut accéder au Service...",
+          "service": "🌐 Service fait référence au Site Web.",
+          "terms": "📜 Termes et Conditions désignent cet accord...",
+          "thirdParty": "📲 Service de Médias Sociaux Tiers désigne tout service ou contenu...",
+          "website": "🔗 Site Web fait référence au jeu de voiture en ligne...",
+          "you": "👤 Vous désigne l'individu accédant ou utilisant le Service..."
+        }
+      },
+      "acknowledgment": {
+        "title": "✅ Reconnaissance",
+        "content": "Ce sont les Termes et Conditions régissant l'utilisation de ce Service..."
+      },
+      "links": {
+        "title": "🔗 Liens vers d'Autres Sites Web",
+        "content": "Notre Service peut contenir des liens vers des sites web tiers..."
+      },
+      "termination": {
+        "title": "⛔ Résiliation",
+        "content": "Nous pouvons résilier ou suspendre Votre accès immédiatement..."
+      },
+      "liability": {
+        "title": "⚖️ Limitation de Responsabilité",
+        "content": "Nonobstant tout dommage que Vous pourriez subir..."
+      },
+      "disclaimer": {
+        "title": "⚠️ Clause de Non-Responsabilité \"EN L'ÉTAT\" et \"TEL QUEL\"",
+        "content": "Le Service Vous est fourni \"EN L'ÉTAT\" et \"TEL QUEL\"..."
+      },
+      "governingLaw": {
+        "title": "📍 Droit Applicable",
+        "content": "Les lois du Pays, à l'exclusion de ses règles de conflit de lois..."
+      },
+      "disputes": {
+        "title": "🤝 Résolution des Litiges",
+        "content": "Si Vous avez une préoccupation ou un litige concernant le Service..."
+      },
+      "euUsers": {
+        "title": "🇪🇺 Pour les Utilisateurs de l'Union Européenne (UE)",
+        "content": "Si Vous êtes un consommateur de l'Union Européenne..."
+      },
+      "usCompliance": {
+        "title": "🇺🇸 Conformité Légale des États-Unis",
+        "content": "Vous déclarez et garantissez que..."
+      },
+      "severability": {
+        "title": "✂️ Divisibilité et Renonciation",
+        "severability": {
+          "title": "✂️ Divisibilité",
+          "content": "Si une disposition de ces Termes est jugée inapplicable..."
+        },
+        "waiver": {
+          "title": "🙅 Renonciation",
+          "content": "Le fait de ne pas exercer un droit ou d'exiger l'exécution..."
+        }
+      },
+      "translation": {
+        "title": "🌐 Interprétation de la Traduction",
+        "content": "Ces Termes et Conditions peuvent avoir été traduits..."
+      },
+      "changes": {
+        "title": "✏️ Modifications de Ces Termes et Conditions",
+        "content": "Nous nous réservons le droit, à notre seule discrétion, de modifier..."
+      },
+      "contact": {
+        "title": "📩 Contactez-Nous",
+        "content": "Si vous avez des questions concernant ces Termes et Conditions :",
+        "email": "📧 Par email : contact@cargameonline.com",
+        "phone": "📞 Par téléphone : +212 772-888309"
+      }
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "back": "Retour",
+    "close": "Fermer"
+  }
+}

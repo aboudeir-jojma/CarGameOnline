@@ -1,0 +1,261 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "language": "Language",
+    "english": "English",
+    "french": "French"
+  },
+  "home": {
+    "title": "CarGameOnline - Free Online Racing Car Game",
+    "description": "Play CarGameOnline, the free online racing car game. Thrilling races, spectacular drifts and multiplayer competition. Play now!",
+    "seo": {
+      "title": "CarGameOnline - Free Online Racing Car Game",
+      "description": "Play CarGameOnline, the free online racing car game. Thrilling races, spectacular drifts and multiplayer competition.",
+      "keywords": "racing game, car game, automobile racing, free game, online game, drift, multiplayer, 3D car game"
+    }
+  },
+  "about": {
+    "title": "About CarGameOnline",
+    "sections": {
+      "section1": {
+        "title": "🚗 Play Our Free Online Car Racing Game",
+        "content": "Start your engines! Play our free online car racing game today. It is fast, fun, and easy to play. Turn your living room into a high-speed racetrack with just a tap or click."
+      },
+      "section2": {
+        "title": "⚡ Race, Stunt, and Have Fun",
+        "content": "Zoom around exciting tracks in the coolest cars. This game is not only about speed. Use your skills to steer, drift, and jump. Try awesome stunts and wow your friends with simple controls."
+      },
+      "section3": {
+        "title": "👥 Play With Friends",
+        "content": "Race against your pals or challenge their best times. Beat their scores, chase new records, and enjoy friendly competition."
+      },
+      "section4": {
+        "title": "🎨 Customize Your Dream Car",
+        "content": "Build the car you have always wanted. Change colors, upgrade parts, and make your ride unique. Pick the look and power that fit your style."
+      },
+      "section5": {
+        "title": "🏆 Earn Points and Unlock More",
+        "content": "Winning is not only about coming in first. Every race earns points. As your points grow, you unlock new cars and exciting levels. Each victory brings you closer to the next big prize."
+      },
+      "section6": {
+        "title": "🎮 Ready, Set, Go!",
+        "content": "Fuel up on fun and feel the thrill of high-speed racing at home. Buckle up, take the wheel, and aim to be the ultimate online car game champion. The race is on, and you are invited!"
+      },
+      "section7": {
+        "title": "❓ What Are Car Games Online?",
+        "content": "Car games online are exciting web-based racing adventures that let kids put on their virtual helmets and jump into action without downloads. Choose your dream ride—from colorful cars and monster trucks to speedy go-karts—and race on creative tracks full of challenges.",
+        "content2": "These games are fun and also teach driving basics like steering and braking. With bright graphics, simple controls, and unlockable cars, kids enjoy safe, friendly races."
+      },
+      "section8": {
+        "title": "⭐ Why Choose an Online Car Game?",
+        "content": "Start your engines for a free online car game that kids can play instantly—no downloads or installs! With cartoon-style tracks, secret shortcuts, and power-ups, each lap feels new and exciting.",
+        "content2": "Designed for kids, this browser racing game balances easy-to-learn controls with thrilling challenges."
+      },
+      "section9": {
+        "title": "🎯 Controls",
+        "content": "→ Speed up | ← Turn | ↓ Slow down | Space = Jump. Everything works directly in your browser—no downloads!"
+      },
+      "section10": {
+        "title": "💡 Tips and Tricks",
+        "content": "Perfect your jumps, collect coins & fuel, explore secret shortcuts, steer smoothly, and practice often!"
+      },
+      "section11": {
+        "title": "🚀 Features of Our Online Car Game",
+        "content": "Bright tracks, one-tap steering, fun characters, obstacles, rewards, and an exciting soundtrack—instantly playable!"
+      },
+      "section12": {
+        "title": "🎉 Online Car Game Fun",
+        "content": "Play in your browser—PC, tablet, or phone. Challenge friends or beat your best score anytime, anywhere!"
+      },
+      "section13": {
+        "title": "🔓 Car Game Online Unblocked",
+        "content": "Play at school or library, with no blocks or downloads. Choose your favorite car and start racing freely!"
+      },
+      "section14": {
+        "title": "📱 Platform Compatibility",
+        "content": "Works on PC, tablet, or smartphone. Just open your browser, tap Play, and race instantly!"
+      },
+      "section15": {
+        "title": "❓ FAQ",
+        "questions": {
+          "q1": {
+            "question": "1. Do I have to install anything before I play?",
+            "answer": "Nope! This car game runs right in your browser—no downloads, no extra apps, no waiting. Just open the page and hit Play!"
+          },
+          "q2": {
+            "question": "2. Which devices can I use to race?",
+            "answer": "You can zoom off on any device with a web browser: smartphones, tablets, laptops, or desktop PCs. The game auto-adjusts so it looks great everywhere."
+          },
+          "q3": {
+            "question": "3. Is the car game really free?",
+            "answer": "Yes—completely free. There are no sign-up fees, no hidden charges, and no in-game purchases required. All cars and levels are ready for you."
+          },
+          "q4": {
+            "question": "4. Is it safe and suitable for kids?",
+            "answer": "Absolutely! Friendly graphics, easy controls, and cheerful sounds make it perfect for young players. There's no scary or violent content—just pure fun."
+          },
+          "q5": {
+            "question": "5. How do I start my first race?",
+            "answer": "Simply open the game page, pick your favorite car, then press the \"Play\" button. On-screen arrows and simple tips will guide you every step of the way. Enjoy racing!"
+          }
+        }
+      }
+    }
+  },
+  "privacy": {
+    "title": "🔒 Privacy Policy",
+    "lastUpdated": "Last updated:",
+    "sections": {
+      "definitions": {
+        "title": "📖 Interpretation and Definitions",
+        "interpretation": {
+          "title": "📝 Interpretation",
+          "content": "The words of which the initial letter is capitalized have meanings defined under the following conditions..."
+        },
+        "definitionsList": {
+          "title": "📌 Definitions",
+          "account": "👤 Account means a unique account...",
+          "affiliate": "🏢 Affiliate means an entity that controls...",
+          "company": "🏭 Company refers to car game online.",
+          "cookies": "🍪 Cookies are small files...",
+          "country": "🌍 Country refers to: New York, United States.",
+          "device": "💻 Device means any device...",
+          "personalData": "🔐 Personal Data is any information...",
+          "website": "🌐 Website refers to car game online...",
+          "serviceProvider": "🤝 Service Provider means any natural or legal person...",
+          "usageData": "📊 Usage Data refers to data collected automatically..."
+        }
+      },
+      "collectingData": {
+        "title": "📂 Collecting and Using Your Personal Data",
+        "typesOfData": {
+          "title": "📑 Types of Data Collected",
+          "personalData": "👤 Personal Data: While using Our Service, We may ask You...",
+          "usageData": "📊 Usage Data: Usage Data is collected automatically...",
+          "tracking": "🍪 Tracking Technologies and Cookies: We use Cookies and similar tracking technologies..."
+        }
+      },
+      "useOfData": {
+        "title": "⚙️ Use of Your Personal Data",
+        "purposes": [
+          "🖥️ To provide and maintain our Service...",
+          "👥 To manage Your Account...",
+          "📞 To contact You by email, telephone, SMS...",
+          "📢 To provide You with news, special offers...",
+          "🤝 For business transfers..."
+        ]
+      },
+      "security": {
+        "title": "🔐 Security of Your Personal Data",
+        "content": "The security of Your Personal Data is important, but remember no method of transmission or storage is 100% secure..."
+      },
+      "rights": {
+        "title": "⚖️ Your Rights & Other Clauses",
+        "rightsList": [
+          "🗑️ Delete Your Personal Data: You have the right to delete...",
+          "🏢 Business Transactions: If the Company is involved in a merger...",
+          "👮 Law Enforcement: Under certain circumstances, the Company may be required...",
+          "📜 Other legal requirements: ✔️ Comply with a legal obligation, 🛡️ Protect rights...",
+          "👶 Children's Privacy: Our Service does not address anyone under 13...",
+          "🔗 Links to Other Websites: Our Service may contain links...",
+          "✏️ Changes to this Privacy Policy: We may update from time to time..."
+        ]
+      }
+    }
+  },
+  "terms": {
+    "title": "📜 Terms and Conditions",
+    "lastUpdated": "Last updated:",
+    "sections": {
+      "definitions": {
+        "title": "📖 Interpretation and Definitions",
+        "interpretation": {
+          "title": "📝 Interpretation",
+          "content": "The words of which the initial letter is capitalized..."
+        },
+        "definitionsList": {
+          "title": "📌 Definitions",
+          "affiliate": "🏢 Affiliate means an entity that controls...",
+          "country": "🌍 Country refers to: New York, United States",
+          "company": "🏭 Company refers to car game online.",
+          "device": "💻 Device means any device that can access the Service...",
+          "service": "🌐 Service refers to the Website.",
+          "terms": "📜 Terms and Conditions mean this agreement...",
+          "thirdParty": "📲 Third-party Social Media Service means any services or content...",
+          "website": "🔗 Website refers to car game online...",
+          "you": "👤 You means the individual accessing or using the Service..."
+        }
+      },
+      "acknowledgment": {
+        "title": "✅ Acknowledgment",
+        "content": "These are the Terms and Conditions governing the use of this Service..."
+      },
+      "links": {
+        "title": "🔗 Links to Other Websites",
+        "content": "Our Service may contain links to third-party web sites..."
+      },
+      "termination": {
+        "title": "⛔ Termination",
+        "content": "We may terminate or suspend Your access immediately..."
+      },
+      "liability": {
+        "title": "⚖️ Limitation of Liability",
+        "content": "Notwithstanding any damages that You might incur..."
+      },
+      "disclaimer": {
+        "title": "⚠️ \"AS IS\" and \"AS AVAILABLE\" Disclaimer",
+        "content": "The Service is provided to You \"AS IS\" and \"AS AVAILABLE\"..."
+      },
+      "governingLaw": {
+        "title": "📍 Governing Law",
+        "content": "The laws of the Country, excluding its conflicts of law rules..."
+      },
+      "disputes": {
+        "title": "🤝 Disputes Resolution",
+        "content": "If You have any concern or dispute about the Service..."
+      },
+      "euUsers": {
+        "title": "🇪🇺 For European Union (EU) Users",
+        "content": "If You are a European Union consumer..."
+      },
+      "usCompliance": {
+        "title": "🇺🇸 United States Legal Compliance",
+        "content": "You represent and warrant that..."
+      },
+      "severability": {
+        "title": "✂️ Severability and Waiver",
+        "severability": {
+          "title": "✂️ Severability",
+          "content": "If any provision of these Terms is held to be unenforceable..."
+        },
+        "waiver": {
+          "title": "🙅 Waiver",
+          "content": "The failure to exercise a right or to require performance..."
+        }
+      },
+      "translation": {
+        "title": "🌐 Translation Interpretation",
+        "content": "These Terms and Conditions may have been translated..."
+      },
+      "changes": {
+        "title": "✏️ Changes to These Terms and Conditions",
+        "content": "We reserve the right, at Our sole discretion, to modify..."
+      },
+      "contact": {
+        "title": "📩 Contact Us",
+        "content": "If you have any questions about these Terms and Conditions:",
+        "email": "📧 By email: contact@cargameonline.com",
+        "phone": "📞 By phone: +212 772-888309"
+      }
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "back": "Back",
+    "close": "Close"
+  }
+}

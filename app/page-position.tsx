@@ -10,6 +10,9 @@ export default function Home() {
       {/* Hidden SEO Header Section for Search Engines */}
       <HeaderSEO />
 
+      {/* Bouton plein écran */}
+      <FullScreenButton />
+
       {/* min-h-screen → permet d’occuper tout l’écran
           mais la page peut s’agrandir si le contenu est plus grand */}
       <main className="flex flex-col min-h-screen w-full bg-gray-100 overflow-x-hidden">
