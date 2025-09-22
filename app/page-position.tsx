@@ -7,7 +7,7 @@ import FullScreenButton from "./components/FullScreenButton";
 export default function Home() {
   return (
     <>
-      {/* Hidden SEO Header Section for Search Engines */}
+      {/* Hidden SEO Header Section for Search  */}
       <HeaderSEO />
 
       {/* Bouton plein écran */}
