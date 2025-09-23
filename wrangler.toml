@@ -1,14 +1,9 @@
 name = "cargameonline"
 compatibility_date = "2024-01-01"
 
-[build]
-command = "npm run build"
-cwd = "."
-watch_dir = "app"
+# ⚡ obligatoire pour Pages
+pages_build_output_dir = "out"
 
-[build.upload]
-format = "directory"
-dir = "./out"
-
-[[build.environment_variables]]
+[vars]
 NODE_VERSION = "18"
+
