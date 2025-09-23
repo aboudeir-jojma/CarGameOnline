@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import I18nProvider from "./components/I18nProvider";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,8 +16,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "CarGameOnline - Free Online Racing Car Game",
-  description: "Play CarGameOnline, the free online racing car game. Thrilling races, spectacular drifts and multiplayer competition. Play now!",
-  keywords: "racing game, car game, automobile racing, free game, online game, drift, multiplayer, 3D car game",
+  description:
+    "Play CarGameOnline, the free online racing car game. Thrilling races, spectacular drifts and multiplayer competition. Play now!",
+  keywords:
+    "racing game, car game, automobile racing, free game, online game, drift, multiplayer, 3D car game",
   authors: [{ name: "CarGameOnline" }],
   creator: "CarGameOnline",
   publisher: "CarGameOnline",
@@ -31,7 +34,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "CarGameOnline - Free Online Racing Car Game",
-    description: "Play CarGameOnline, the free online racing car game. Thrilling races, spectacular drifts and multiplayer competition.",
+    description:
+      "Play CarGameOnline, the free online racing car game. Thrilling races, spectacular drifts and multiplayer competition.",
     url: "https://cargameonline.com",
     siteName: "CarGameOnline",
     images: [
@@ -48,7 +52,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "CarGameOnline - Free Online Racing Car Game",
-    description: "Play CarGameOnline, the free online racing car game. Thrilling races, spectacular drifts and multiplayer competition.",
+    description:
+      "Play CarGameOnline, the free online racing car game. Thrilling races, spectacular drifts and multiplayer competition.",
     images: ["/game/base/banner.jpg"],
     creator: "@cargameonline",
   },
@@ -64,7 +69,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "your-google-site-verification-code",
+    google: "your-google-site-verification-code", // Search Console
   },
 };
 
@@ -75,12 +80,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <I18nProvider>
-          {children}
-        </I18nProvider>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {/* ✅ Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-VYJ53LHQTQ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-VYJ53LHQTQ');
+          `}
+        </Script>
+
+        <I18nProvider>{children}</I18nProvider>
       </body>
     </html>
   );
