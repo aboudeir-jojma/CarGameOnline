@@ -8,7 +8,7 @@ export default function FullScreenButton() {
 
   const toggleFullscreen = async () => {
     try {
-      const iframe = document.querySelector('iframe[src="/game/index.html"]') as HTMLIFrameElement;
+      const iframe = document.querySelector('iframe[src="https://games-gules-nu.vercel.app/car-game/index.html"]') as HTMLIFrameElement;
 
       if (!isFullscreen) {
         // Entrer en mode plein écran pour l'iframe seulement
@@ -38,7 +38,7 @@ export default function FullScreenButton() {
   return (
     <button
       onClick={toggleFullscreen}
-       className="absolute top-2 right-87 z-50 bg-black hover:bg-gray-800 text-white p-3 rounded-lg shadow-lg transition-all duration-200 hover:scale-105 border border-gray-600"
+       className="absolute top-2 right-2 sm:right-4 z-50 bg-black hover:bg-gray-800 text-white p-3 rounded-lg shadow-lg transition-all duration-200 hover:scale-105 border border-gray-600"
       aria-label={isFullscreen ? "Quitter le mode plein écran du jeu" : "Passer le jeu en mode plein écran"}
       title={isFullscreen ? "Quitter le mode plein écran du jeu" : "Passer le jeu en mode plein écran"}
     >
