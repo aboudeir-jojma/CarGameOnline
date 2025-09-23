@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://cargameonline.com
+
+# Sitemaps
+Sitemap: https://cargameonline.com/sitemap.xml
