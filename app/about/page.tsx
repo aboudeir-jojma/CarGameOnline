@@ -9,7 +9,7 @@ export default function About() {
   return (
     <>
       <Navigation />
-      <div className="min-h-screen bg-gray-100 py-12 px-4">
+      <div className="min-h-screen bg-gray-100 py-12 px-4 mt-18">
         <div className="max-w-6xl mx-auto">
           <div className="bg-white rounded-lg shadow-lg p-8 space-y-8">
             <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">

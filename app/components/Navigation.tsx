@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import { Car, Menu, X, Info, Shield, FileText, Mail, Globe } from "lucide-react";
@@ -8,6 +8,16 @@ import { Car, Menu, X, Info, Shield, FileText, Mail, Globe } from "lucide-react"
 export default function Navigation() {
   const { t, i18n } = useTranslation('common');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -34,8 +44,10 @@ export default function Navigation() {
     { code: "fr", label: t('nav.french'), icon: Globe },
   ];
 
+  const navOpacity = scrollY > 50 ? 'bg-black/80 backdrop-blur-md' : 'bg-black';
+
   return (
-    <nav className="bg-black text-white shadow-lg relative">
+    <nav className={`text-white shadow-lg fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${navOpacity}`}>
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo et titre */}

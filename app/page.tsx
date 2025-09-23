@@ -18,7 +18,7 @@ export default function Home() {
         <Navigation />
 
         {/* Zone principale avec le jeu */}
-        <div className="flex flex-1 justify-center items-center gap-4 mt-6 relative">
+        <div className="flex flex-1 justify-center items-center gap-4 mt-6 relative mt-18">
           <div className="flex-1 flex justify-center items-center relative">
             <iframe
               src="https://games-gules-nu.vercel.app/car-game/index.html"
