@@ -6,7 +6,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://80fd3e01.cargameonline.pages.dev/' : undefined,
+  assetPrefix: process.env.NODE_ENV === 'production'
+    ? 'https://80fd3e01.cargameonline.pages.dev/'
+    : undefined,
   experimental: {
     optimizePackageImports: ['lucide-react', 'i18next', 'react-i18next'],
     optimizeCss: true,
