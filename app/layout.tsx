@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CarGameOnline - Free Online Racing Car Game",
+  title: "CarGameOnline",
   description:
     "Play CarGameOnline, the free online racing car game. Thrilling races, spectacular drifts and multiplayer competition. Play now!",
   keywords:
@@ -32,8 +32,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
   openGraph: {
-    title: "CarGameOnline - Free Online Racing Car Game",
+    title: "CarGameOnline ",
     description:
       "Play CarGameOnline, the free online racing car game. Thrilling races, spectacular drifts and multiplayer competition.",
     url: "https://cargameonline.com",
@@ -51,7 +56,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CarGameOnline - Free Online Racing Car Game",
+    title: "CarGameOnline ",
     description:
       "Play CarGameOnline, the free online racing car game. Thrilling races, spectacular drifts and multiplayer competition.",
     images: ["/game/base/banner.jpg"],
