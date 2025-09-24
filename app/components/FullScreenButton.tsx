@@ -1,58 +1,125 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Maximize, Minimize } from "lucide-react";
 
 export default function FullScreenButton() {
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  // Détecter si l'appareil est iOS
+  // Enhanced iOS detection
   const isIOS = () => {
     if (typeof window === 'undefined' || typeof navigator === 'undefined') {
       return false;
     }
-    return /iPad|iPhone|iPod/.test(navigator.userAgent) && !(window as any).MSStream;
+    const userAgent = navigator.userAgent;
+    const isIOS = /iPad|iPhone|iPod/.test(userAgent);
+    const isWebKit = /WebKit/.test(userAgent);
+    const isNotMSStream = !(window as any).MSStream;
+
+    return isIOS && isWebKit && isNotMSStream;
+  };
+
+  // Check if device supports fullscreen
+  const supportsFullscreen = () => {
+    if (typeof document === 'undefined') return false;
+
+    const element = document.documentElement;
+    return !!(
+      element.requestFullscreen ||
+      (element as any).webkitRequestFullscreen ||
+      (element as any).mozRequestFullScreen ||
+      (element as any).msRequestFullscreen
+    );
   };
 
   const toggleFullscreen = async () => {
     try {
+      setError(null);
       const iframe = document.querySelector('iframe[src="https://games-gules-nu.vercel.app/car-game/index.html"]') as HTMLIFrameElement;
 
+      if (!iframe) {
+        setError("Jeu non trouvé. Veuillez recharger la page.");
+        return;
+      }
+
       if (!isFullscreen) {
-        // Entrer en mode plein écran pour l'iframe seulement
-        if (iframe) {
-          if (isIOS() && (iframe as any).webkitEnterFullscreen) {
-            (iframe as any).webkitEnterFullscreen();
-            setIsFullscreen(true);
-          } else if (iframe.requestFullscreen) {
-            await iframe.requestFullscreen();
-            setIsFullscreen(true);
+        // Enter fullscreen mode
+        if (isIOS()) {
+          // iOS specific fullscreen implementation
+          try {
+            if ((iframe as any).webkitEnterFullscreen) {
+              (iframe as any).webkitEnterFullscreen();
+              setIsFullscreen(true);
+            } else {
+              setError("Fullscreen non supporté sur ce navigateur iOS.");
+            }
+          } catch (webkitError) {
+            console.error("Webkit fullscreen error:", webkitError);
+            setError("Erreur iOS: Essayez de toucher l'écran et utiliser le bouton fullscreen du navigateur.");
+          }
+        } else {
+          // Standard fullscreen implementation
+          try {
+            if (iframe.requestFullscreen) {
+              await iframe.requestFullscreen();
+              setIsFullscreen(true);
+            } else if ((iframe as any).webkitRequestFullscreen) {
+              (iframe as any).webkitRequestFullscreen();
+              setIsFullscreen(true);
+            } else {
+              setError("Fullscreen non supporté sur ce navigateur.");
+            }
+          } catch (standardError) {
+            console.error("Standard fullscreen error:", standardError);
+            setError("Erreur lors de l'activation du mode plein écran.");
           }
         }
       } else {
-        // Sortir du mode plein écran
-        if (isIOS() && (document as any).webkitFullscreenElement) {
-          (document as any).webkitExitFullscreen();
-          setIsFullscreen(false);
-        } else if (document.fullscreenElement) {
-          await document.exitFullscreen();
-          setIsFullscreen(false);
+        // Exit fullscreen mode
+        try {
+          if (isIOS()) {
+            if ((document as any).webkitExitFullscreen) {
+              (document as any).webkitExitFullscreen();
+              setIsFullscreen(false);
+            }
+          } else {
+            if (document.exitFullscreen) {
+              await document.exitFullscreen();
+              setIsFullscreen(false);
+            } else if ((document as any).webkitExitFullscreen) {
+              (document as any).webkitExitFullscreen();
+              setIsFullscreen(false);
+            }
+          }
+        } catch (exitError) {
+          console.error("Exit fullscreen error:", exitError);
+          setError("Erreur lors de la sortie du mode plein écran.");
         }
       }
     } catch (error) {
       console.error("Erreur lors du basculement plein écran:", error);
+      setError("Une erreur inattendue s'est produite.");
     }
   };
 
-  // Écouter les changements de mode plein écran
-  if (typeof document !== 'undefined') {
-    document.addEventListener('fullscreenchange', () => {
-      setIsFullscreen(!!document.fullscreenElement);
-    });
-    document.addEventListener('webkitfullscreenchange', () => {
-      setIsFullscreen(!!(document as any).webkitFullscreenElement);
-    });
-  }
+  // Listen for fullscreen changes
+  useEffect(() => {
+    if (typeof document === 'undefined') return;
+
+    const handleFullscreenChange = () => {
+      const fullscreenElement = document.fullscreenElement || (document as any).webkitFullscreenElement;
+      setIsFullscreen(!!fullscreenElement);
+    };
+
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+      document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
+    };
+  }, []);
 
   return (
     <button
