@@ -14,10 +14,10 @@
    - [x] Add iOS detection using user agent
    - [x] Modify toggleFullscreen to use webkitEnterFullscreen for iOS
    - [x] Update event listeners for webkit fullscreen changes
-   - [ ] Test the implementation
+   - [x] Test the implementation
 
 4. **Testing and Verification**
-   - [ ] Run development server
+   - [x] Run development server
    - [ ] Test on Android (should still work)
    - [ ] Test on iOS (via browser simulation or device)
 
