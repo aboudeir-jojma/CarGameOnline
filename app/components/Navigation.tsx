@@ -48,17 +48,15 @@ export default function Navigation() {
 
   return (
     <nav className={`text-white shadow-lg fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${navOpacity}`}>
-      <div className="max-w-7xl mx-auto px-6 py-4">
+    <div className="max-w-7xl mx-auto px-4 py-2">
+
         <div className="flex items-center justify-between">
-          {/* Logo et titre */}
+          {/* Logo */}
           <div className="flex items-center gap-3 ml-18">
-            <Car className="w-7 h-7 text-yellow-400" />
-            <Link
-              href="/"
-              className="text-2xl font-bold tracking-wide hover:text-yellow-300 transition-colors"
-              onClick={closeMenu}
-            >
-              CarGameOnline
+            <Link href="/" onClick={closeMenu}>
+              <img src="/logo.png" alt="Logo"  className="h-10 sm:h-13 md:h-15  w-auto max-w-[280px] object-contain" />
+              
+
             </Link>
           </div>
 
