@@ -6,19 +6,32 @@ import { Maximize, Minimize } from "lucide-react";
 export default function FullScreenButton() {
   const [isFullscreen, setIsFullscreen] = useState(false);
 
+  // Détecter si l'appareil est iOS
+  const isIOS = () => {
+    return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  };
+
   const toggleFullscreen = async () => {
     try {
       const iframe = document.querySelector('iframe[src="https://games-gules-nu.vercel.app/car-game/index.html"]') as HTMLIFrameElement;
 
       if (!isFullscreen) {
         // Entrer en mode plein écran pour l'iframe seulement
-        if (iframe && iframe.requestFullscreen) {
-          await iframe.requestFullscreen();
-          setIsFullscreen(true);
+        if (iframe) {
+          if (isIOS() && iframe.webkitEnterFullscreen) {
+            iframe.webkitEnterFullscreen();
+            setIsFullscreen(true);
+          } else if (iframe.requestFullscreen) {
+            await iframe.requestFullscreen();
+            setIsFullscreen(true);
+          }
         }
       } else {
         // Sortir du mode plein écran
-        if (document.fullscreenElement) {
+        if (isIOS() && document.webkitFullscreenElement) {
+          document.webkitExitFullscreen();
+          setIsFullscreen(false);
+        } else if (document.fullscreenElement) {
           await document.exitFullscreen();
           setIsFullscreen(false);
         }
@@ -32,6 +45,9 @@ export default function FullScreenButton() {
   if (typeof document !== 'undefined') {
     document.addEventListener('fullscreenchange', () => {
       setIsFullscreen(!!document.fullscreenElement);
+    });
+    document.addEventListener('webkitfullscreenchange', () => {
+      setIsFullscreen(!!document.webkitFullscreenElement);
     });
   }
 
