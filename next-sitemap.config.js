@@ -1,6 +1,9 @@
 /** @type {import('next-sitemap').IConfig} */
-module.exports = {
-  siteUrl: 'https://cargameonline.com',
+const config = {
+  siteUrl: "https://cargameonline.com", // ton domaine
   generateRobotsTxt: true,
-  sitemapSize: 7000,
-}
+  sitemapSize: 5000,
+  outDir: "./out", // indispensable car tu fais `serve out`
+};
+
+module.exports = config;
