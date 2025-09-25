@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "serve out"
-  },
+  "dev": "next dev --turbopack",
+  "build": "next build && next export",
+  "start": "serve out",
+  "postbuild": "next-sitemap"
+},
   "dependencies": {
     "critters": "^0.0.23",
     "i18next": "^25.5.2",
