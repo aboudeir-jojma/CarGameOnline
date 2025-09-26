@@ -4,10 +4,11 @@
   "private": true,
 "scripts": {
   "dev": "next dev --turbopack",
-  "build": "next build && next export",
-  "start": "serve out",
+  "build": "next build",
+  "start": "next start",
   "postbuild": "next-sitemap"
 }
+
 ,
   "dependencies": {
     "critters": "^0.0.23",
