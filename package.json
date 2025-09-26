@@ -4,10 +4,10 @@
   "private": true,
 "scripts": {
   "dev": "next dev --turbopack",
-  "build": "next build",
-  "start": "next start",
-  "postbuild": "next-sitemap"
+  "build": "next build && next-sitemap",
+  "start": "serve out"
 }
+
 
 ,
   "dependencies": {

@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   output: "export",
   trailingSlash: true,
   images: {
@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ["lucide-react", "i18next", "react-i18next"],
     optimizeCss: true,
   },
-  webpack: (config, { isServer }) => {
+  webpack: (config, { isServer }: { isServer: boolean }) => {
     if (!isServer) {
       config.optimization.splitChunks = {
         ...config.optimization.splitChunks,
@@ -26,6 +26,6 @@ const nextConfig: NextConfig = {
     }
     return config;
   },
-};
+} satisfies NextConfig;
 
 export default nextConfig;
