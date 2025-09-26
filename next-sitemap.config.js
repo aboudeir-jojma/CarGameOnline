@@ -1,9 +1,14 @@
-/** @type {import('next-sitemap').IConfig} */
-const config = {
-  siteUrl: "https://cargameonline.com", // ton domaine
+const games = require("./content/games.json"); // ton fichier avec les slugs
+
+module.exports = {
+  siteUrl: "https://cargameonline.com",
   generateRobotsTxt: true,
   sitemapSize: 5000,
-  outDir: "./out", // indispensable car tu fais `serve out`
+  async additionalPaths(config) {
+    return games.map(game => ({
+      loc: `/game/${game.slug}`,
+      changefreq: "weekly",
+      priority: 0.8,
+    }));
+  },
 };
-
-module.exports = config;
