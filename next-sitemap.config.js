@@ -1,16 +1,9 @@
 /** @type {import('next-sitemap').IConfig} */
-const games = require("./content/games.json"); // fichier avec tes slugs de jeux
-
-module.exports = {
+const config = {
   siteUrl: "https://cargameonline.com",
   generateRobotsTxt: true,
   sitemapSize: 5000,
-  outDir: "./out",   // ⚡ obligatoire pour Cloudflare
-  async additionalPaths(config) {
-    return games.map((game) => ({
-      loc: `/game/${game.slug}`,
-      changefreq: "weekly",
-      priority: 0.8,
-    }));
-  },
+  outDir: "./out",   // ⚡ très important pour Cloudflare Pages
 };
+
+module.exports = config;
