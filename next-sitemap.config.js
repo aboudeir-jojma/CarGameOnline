@@ -1,11 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
-const config = {
-  siteUrl: "https://cargameonline.com",
-  generateRobotsTxt: true,
-  generateIndexSitemap: true, // ⚡ IMPORTANT
-  outDir: "./out",
-  sitemapSize: 5000,
+module.exports = {
+  siteUrl: 'https://247solitairegames.com', // remplace par ton domaine
+  generateRobotsTxt: true, // génère aussi robots.txt
+  sitemapSize: 7000,
 };
-
-module.exports = config;
 
