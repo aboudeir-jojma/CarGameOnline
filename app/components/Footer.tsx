@@ -6,14 +6,14 @@ import { useTranslation } from "react-i18next";
 import { Info, Shield, FileText, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 export default function Footer() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('common');
   const params = useParams();
   const activeLocale = typeof params?.locale === 'string' ? params.locale : 'en';
 
   const footerLinks = [
-    { href: `/${activeLocale}/about`, label: t('common.nav.about'), icon: Info },
-    { href: `/${activeLocale}/privacy`, label: t('common.nav.privacy'), icon: Shield },
-    { href: `/${activeLocale}/terms`, label: t('common.nav.terms'), icon: FileText },
+    { href: `/${activeLocale}/about`, label: t('nav.about'), icon: Info },
+    { href: `/${activeLocale}/privacy`, label: t('nav.privacy'), icon: Shield },
+    { href: `/${activeLocale}/terms`, label: t('nav.terms'), icon: FileText },
   ];
 
   const socialLinks = [
