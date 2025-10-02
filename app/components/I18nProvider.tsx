@@ -6,7 +6,7 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { detectBrowserLanguage, isLanguageSupported } from '../utils/languageDetector';
 
-// Import translation files
+// Import translation filess
 import enTranslations from '../../public/locales/en/common.json';
 import frTranslations from '../../public/locales/fr/common.json';
 
