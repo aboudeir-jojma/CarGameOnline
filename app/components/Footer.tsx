@@ -51,7 +51,7 @@ export default function Footer() {
             })}
           </div>
 
-          {/* Social Networks */}
+          {/* Social Networksss */}
           <div className="flex gap-4">
             {socialLinks.map((item) => {
               const Icon = item.icon;
