@@ -15,6 +15,18 @@
       "title": "CarGameOnline - Free Online Racing Car Game",
       "description": "Play CarGameOnline, the free online racing car game. Thrilling races, spectacular drifts and multiplayer competition.",
       "keywords": "racing game, car game, automobile racing, free game, online game, drift, multiplayer, 3D car game"
+    },
+    "section2": {
+      "title": "Discover Spider Solitaire",
+      "description": "Challenge yourself with Spider Solitaire, a classic card game that tests your strategy and patience. Arrange cards in descending order and build sequences by suit to clear the tableau.",
+      "whyTitle": "Why Play Spider Solitaire?",
+      "whyList": {
+        "1": "Improve your concentration and logical thinking",
+        "2": "Enjoy a relaxing yet challenging gameplay",
+        "3": "Play anytime, anywhere on any device",
+        "4": "Free to play with no downloads required"
+      },
+      "playNow": "Play Spider Solitaire Now"
     }
   },
   "about": {
@@ -256,6 +268,29 @@
     "loading": "Loading...",
     "error": "An error occurred",
     "back": "Back",
-    "close": "Close"
+    "close": "Close",
+    "playNow": "Play Now"
+  },
+  "games": {
+    "klondike": {
+      "title": "Klondike Solitaire",
+      "description": "The classic version of Solitaire where you build foundation piles by suit from Ace to King."
+    },
+    "spider": {
+      "title": "Spider Solitaire",
+      "description": "A challenging game where you arrange cards in descending order, building sequences by suit."
+    },
+    "freecell": {
+      "title": "FreeCell Solitaire",
+      "description": "Use four free cells to strategically move cards and build foundation piles."
+    },
+    "uno": {
+      "title": "Uno",
+      "description": "Get rid of your cards by matching colors or numbers, with special cards to spice up the game."
+    },
+    "ludo-king": {
+      "title": "Ludo King",
+      "description": "Have an exciting race with your pawns to the finish by rolling the dice, a classic game of strategy and luck."
+    }
   }
 }

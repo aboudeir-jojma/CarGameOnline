@@ -15,6 +15,18 @@
       "title": "CarGameOnline - Jeu de Course Automobile Gratuit en Ligne",
       "description": "Jouez à CarGameOnline, le jeu de course automobile gratuit en ligne. Courses palpitantes, drifts spectaculaires et compétition multijoueur.",
       "keywords": "jeu de course, jeu de voiture, course automobile, jeu gratuit, jeu en ligne, drift, multijoueur, jeu de voiture 3D"
+    },
+    "section2": {
+      "title": "Découvrez Spider Solitaire",
+      "description": "Défiez-vous avec Spider Solitaire, un jeu de cartes classique qui teste votre stratégie et votre patience. Arrangez les cartes en ordre décroissant et construisez des séquences par couleur pour vider le tableau.",
+      "whyTitle": "Pourquoi jouer à Spider Solitaire ?",
+      "whyList": {
+        "1": "Améliorez votre concentration et votre pensée logique",
+        "2": "Profitez d'un gameplay relaxant mais stimulant",
+        "3": "Jouez n'importe quand, n'importe où sur n'importe quel appareil",
+        "4": "Gratuit à jouer sans téléchargements requis"
+      },
+      "playNow": "Jouer à Spider Solitaire Maintenant"
     }
   },
   "about": {
@@ -256,6 +268,29 @@
     "loading": "Chargement...",
     "error": "Une erreur s'est produite",
     "back": "Retour",
-    "close": "Fermer"
+    "close": "Fermer",
+    "playNow": "Jouer Maintenant"
+  },
+  "games": {
+    "klondike": {
+      "title": "Klondike Solitaire",
+      "description": "La version classique du Solitaire où vous construisez des piles de fond par couleur de l'As au Roi."
+    },
+    "spider": {
+      "title": "Spider Solitaire",
+      "description": "Un jeu stimulant où vous arrangez les cartes en ordre descendant, en construisant des séquences par couleur."
+    },
+    "freecell": {
+      "title": "FreeCell Solitaire",
+      "description": "Utilisez quatre cellules libres pour déplacer stratégiquement les cartes et construire des piles de fond."
+    },
+    "uno": {
+      "title": "Uno",
+      "description": "Débarrassez-vous de vos cartes en associant couleurs ou chiffres, avec des cartes spéciales pour pimenter la partie."
+    },
+    "ludo-king": {
+      "title": "Ludo King",
+      "description": "Faites la course passionnante avec vos pions jusqu’à l’arrivée en lançant le dé, un jeu classique de stratégie et de chance."
+    }
   }
 }

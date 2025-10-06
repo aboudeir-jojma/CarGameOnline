@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import I18nProvider from "./components/I18nProvider";
 import Script from "next/script";
+import { detectBrowserLanguage } from "./utils/languageDetector";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -74,7 +75,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "your-google-site-verification-code", // Search Console
+    google: "Fv4LDBJMxnFJrko37PJLc6lmkCvwDPhe6f_G-ZkxvPo", // Search Console
   },
 };
 
@@ -83,8 +84,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const lang = detectBrowserLanguage().language;
+
   return (
-    <html lang="en">
+    <html lang={lang}>
+      <head>
+        <meta name="google-site-verification" content="Fv4LDBJMxnFJrko37PJLc6lmkCvwDPhe6f_G-ZkxvPo" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {/* ✅ Google Analytics */}
         <Script
