@@ -124,7 +124,8 @@ export default function FullScreenButton() {
   return (
     <button
       onClick={toggleFullscreen}
-      className="absolute top-2 right-4 lg:right-[270px] z-50 bg-black/80 hover:bg-black/90 text-white p-2 rounded-lg shadow-lg transition-all duration-200 hover:scale-105 backdrop-blur-sm border border-gray-700"
+     className="absolute top-2 right-10 lg:right-[260px] z-50 bg-black/80 hover:bg-black/90 text-white p-2 rounded-lg shadow-lg transition-all duration-200 hover:scale-105 backdrop-blur-sm border border-gray-700"
+
       aria-label={isFullscreen ? "Quitter le mode plein écran du jeu" : "Passer le jeu en mode plein écran"}
       title={isFullscreen ? "Quitter le mode plein écran du jeu" : "Passer le jeu en mode plein écran"}
     >
