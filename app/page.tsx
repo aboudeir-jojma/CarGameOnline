@@ -28,7 +28,7 @@ export default function Home() {
           <div className="flex-1 flex justify-center items-center relative">
             <iframe
               src="https://games-gules-nu.vercel.app/car-game/index.html"
-              className="w-full max-w-5xl h-[85vh] border-0 shadow-lg rounded-lg"
+              className="w-4/5 md:w-full max-w-5xl h-[85vh] border-0 shadow-lg rounded-lg"
               title="Car Game Online"
               allowFullScreen
             ></iframe>
