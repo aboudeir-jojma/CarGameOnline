@@ -34,7 +34,7 @@ export default function Footer() {
             </Link>
           </div>
 
-          {/* Links */}
+          {/* Linksss */}
           <div className="flex flex-wrap justify-center gap-6">
             {footerLinks.map((item) => {
               const Icon = item.icon;
