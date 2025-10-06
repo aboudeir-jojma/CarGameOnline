@@ -6,7 +6,7 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { detectBrowserLanguage, isLanguageSupported } from '../utils/languageDetector';
 
-// Import translation filesss
+// Import translation files
 import enTranslations from '../../public/locales/en/common.json';
 import frTranslations from '../../public/locales/fr/common.json';
 
@@ -25,7 +25,7 @@ export default function I18nProvider({ children }: { children: React.ReactNode }
   const [isReady, setIsReady] = useState(false);
 
   useEffect(() => {
-    // Only initialize onceee
+    // Only initialize once
     if (!isInitialized) {
       i18n
         .use(LanguageDetector)
