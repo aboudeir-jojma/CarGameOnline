@@ -23,7 +23,7 @@ export default function Home() {
         {/* Navigation avec bouton hamburger */}
         <Navigation />
 
-        {/* Zone principale avec le jeu */}
+        {/* Zone principale avec le jeu $*/}
         <div className="flex flex-1 justify-center items-center gap-4 mt-6 relative mt-25">
           <div className="flex-1 flex justify-center items-center relative">
             <iframe
